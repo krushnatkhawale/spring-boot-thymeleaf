@@ -1,3 +1,3 @@
-alert('Dldo');
+alert('D1');
 
-alert('Dldo');
+alert('D2');
