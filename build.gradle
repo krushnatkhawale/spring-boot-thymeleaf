@@ -7,6 +7,5 @@ subprojects {
         mavenCentral()
     }
 
-    task listAllDependencies(type: DependencyReportTask) {
-    }
+    task listAllDependencies(type: DependencyReportTask) {}
 }
