@@ -14,4 +14,7 @@ sourceCompatibility = '1.8'
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.webjars:bootstrap:3.3.6'
+	implementation 'org.webjars:bootstrap-datepicker:1.0.1'
+	implementation 'org.webjars:jquery:1.9.1'
 }
