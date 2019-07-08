@@ -1,8 +1,8 @@
 import java.util.function.Consumer
 
 plugins {
-	id 'org.springframework.boot' version '2.1.6.RELEASE'
-	id 'java'
+    id 'org.springframework.boot' version '2.1.6.RELEASE'
+    id 'java'
 }
 
 apply plugin: 'io.spring.dependency-management'
@@ -12,9 +12,9 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
-	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'org.webjars:bootstrap:3.3.6'
-	implementation 'org.webjars:bootstrap-datepicker:1.0.1'
-	implementation 'org.webjars:jquery:1.9.1'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.webjars:bootstrap:3.3.6'
+    implementation 'org.webjars:bootstrap-datepicker:1.0.1'
+    implementation 'org.webjars:jquery:1.9.1'
 }
