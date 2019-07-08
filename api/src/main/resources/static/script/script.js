@@ -130,6 +130,7 @@ data = d3.json("https://raw.githubusercontent.com/d3/d3-hierarchy/v1.1.8/test/da
 dx = 10
 
 dy = width / 6
+
 margin = ({top: 10, right: 120, bottom: 10, left: 40})
 
 d3 = require("d3@5")

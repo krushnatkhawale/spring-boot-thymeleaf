@@ -1,5 +1,10 @@
 <html xmlns:th="http://www.w3.org/1999/xhtml" lang="en">
-<head><title>Home Page</title></head>
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" media="all" th:href="@{/css/styles.css}"/>
+    <script type="text/css" th:href="@{/script/scripts.js}"/>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
 <body>
 <h1>Hello !</h1>
 <p>Welcome to <span th:text="${appName}">Our App</span></p>
