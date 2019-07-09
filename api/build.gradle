@@ -3,9 +3,8 @@ plugins {
     id 'java'
 }
 
-apply plugin: 'io.spring.dependency-management'
-
 sourceCompatibility = '1.8'
+apply plugin: 'io.spring.dependency-management'
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
